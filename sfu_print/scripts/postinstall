@@ -1,0 +1,5 @@
+#!/bin/bash
+printerName='SFU_Print'
+
+/SFU/Printers/$printerName/install_printer.sh
+/bin/launchctl load /Library/LaunchDaemons/ca.sfu.its.sfu_print.plist
